@@ -5,10 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figuras Geometricas - JS Practico</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Figuras Geometricas</h1>
-
+    <header>
+      <h1>Figuras Geometricas</h1>
+      <p>Este es el primer taller del curso practico de JS</p>
+    </header>
+    <main>
+      <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form>
+          <label for="InputCuadrado"
+            >Escribe cuanto mide un lado de tu cuadrado:</label
+          >
+          <input id="InputCuadrado" type="number" />
+          <button type="button" onclick="calcularPerimetroCuadrado()">
+            Calcular el perimetro
+          </button>
+          <button type="button" onclick="calcularAreaCuadrado()">
+            Calcular el area
+          </button>
+        </form>
+      </section>
+      <section>
+        <h2>Calcula el area y perimetro de un Triangulo</h2>
+        <div class="formTriangulo">
+          <form>
+            <div class="inputT">
+              <label for="InputTriangulo1"
+                >Escribe cuanto mide cada lado de tu Triangulo:</label
+              >
+              <input id="InputTriangulo1" type="number" />
+            </div>
+            <div class="inputT">
+              <label for="InputTriangulo2"
+                >Escribe cuanto mide cada lado de tu Triangulo:</label
+              >
+              <input id="InputTriangulo2" type="number" />
+            </div>
+            <div class="inputT">
+              <label for="InputTriangulo3"
+                >Escribe cuanto mide cada lado de tu Triangulo:</label
+              >
+              <input id="InputTriangulo3" type="number" />
+            </div>
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+              Calcular el perimetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()">
+              Calcular el area
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
     <script src="./figuras.js"></script>
   </body>
 </html>

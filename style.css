@@ -1,0 +1,21 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+} */
+
+.formTriangulo {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.inputT {
+  margin-bottom: 10px;
+}
